@@ -1,5 +1,9 @@
 package com.testify;
 
+import com.testify.layouts.teste;
+
+
+
 /*
  * HELLO WORLD!! 
  * 
@@ -8,7 +12,12 @@ package com.testify;
  */
 
 public class Main {
+    static teste a = new teste();
+    
     public static void main(String[] args) {
         //nada aqui por enquanto
+         a.setVisible(true);
     }
+
+  
 }
